@@ -1,8 +1,5 @@
-name: enableTimeExam
+name: skipemailvalidation
 version: 0.1.0
 patches:
-  lms-env-features: |
-    "ENABLE_SPECIAL_EXAMS": true
-
-  cms-env-features: |
-        "ENABLE_SPECIAL_EXAMS": true
+  common-env-features: |
+    "SKIP_EMAIL_VALIDATION": true
