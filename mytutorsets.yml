@@ -1,5 +1,8 @@
-name:  mytutorsets
+name: enableTimeExam
 version: 0.1.0
 patches:
-  common-env-features: |
+  lms-env-features: |
     "ENABLE_SPECIAL_EXAMS": true
+
+  cms-env-features: |
+        "ENABLE_SPECIAL_EXAMS": true
