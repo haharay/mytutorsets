@@ -1,7 +1,5 @@
 name:  mytutorsets
 version: 0.1.0
 patches:
-  common-env-features:
-    #ss
+  common-env-features: |
     "ENABLE_SPECIAL_EXAMS": true
-    #SKIP_EMAIL_VALIDATION": true
