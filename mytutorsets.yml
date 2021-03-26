@@ -3,3 +3,5 @@ version: 0.1.0
 patches:
   common-env-features: |
     "ENABLE_SPECIAL_EXAMS": true
+  openedx-cms-production-settings: |
+     MAX_ASSET_UPLOAD_FILE_SIZE_IN_MB = 500
