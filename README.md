@@ -4,7 +4,8 @@
 注意在考试前需要设定每个部分是否可见、尝试次数（advanced设置）。
 
 
-
+# 设定文件上传大小为500MB
+MAX_ASSET_UPLOAD_FILE_SIZE_IN_MBconstant specified inside ``cms/envs/common.py`.
 
 
 ### 安装
