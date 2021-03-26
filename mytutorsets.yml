@@ -4,4 +4,4 @@ patches:
   common-env-features: |
     "ENABLE_SPECIAL_EXAMS": true
   openedx-cms-production-settings: |
-     MAX_ASSET_UPLOAD_FILE_SIZE_IN_MB = 500
+     MAX_ASSET_UPLOAD_FILE_SIZE_IN_MB = 200
