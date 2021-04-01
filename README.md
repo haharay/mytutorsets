@@ -12,8 +12,11 @@ MAX_ASSET_UPLOAD_FILE_SIZE_IN_MBconstant specified inside ``cms/envs/common.py`.
 tutor plugins install https://raw.githubusercontent.com/haharay/mytutorsets/main/mytutorsets.yml
 
 tutor plugins list
+
 tutor plugins enable TimedExam
+
 tutor config save
+
 tutor local quickstart
 
 sudo curl -L "https://github.com/overhangio/tutor/releases/download/v10.3.0/tutor-$(uname -s)_$(uname -m)" -o /usr/local/bin/tutor
