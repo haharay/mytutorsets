@@ -1,7 +1,18 @@
 name: TimedExam
-version: 0.1.0
+version: 0.1.5
 patches:
-  common-env-features: |
-    "ENABLE_SPECIAL_EXAMS": true
   openedx-cms-production-settings: |
      MAX_ASSET_UPLOAD_FILE_SIZE_IN_MB = 200
+  common-env-features: |
+    "ENABLE_SPECIAL_EXAMS": true
+  cms-env-features: |
+    "ENABLE_OTHER_COURSE_SETTINGS": true
+  lms-env-features: |
+    "ENABLE_ACCOUNT_DELETION": true,
+    "COURSES_ARE_BROWSABLE": false,
+    "ENABLE_BULK_ENROLLMENT_VIEW": true,
+    "ALLOW_EMAIL_ADDRESS_CHANGE": true
+  cms-env: |
+    "TIME_ZONE": "Asia/Shanghai"
+  lms-env: |
+    "TIME_ZONE": "Asia/Shanghai"
